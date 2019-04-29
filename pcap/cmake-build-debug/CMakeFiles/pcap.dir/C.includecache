@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/viewv/PycharmProjects/ComputerNetworkProject01/pcap/testlib.c
+pcap.h
+-
+time.h
+-
+stdlib.h
+-
+stdio.h
+-
+
