@@ -114,5 +114,7 @@ def ping(dest_addr, timeout=2, counter=10):
 
 
 if __name__ == "__main__":
-    ping("www.baidu.com")
-    ping('10.0.0.1')
+    dest = sys.argv[1]
+    ping(dest)
+    # ping("www.baidu.com")
+    # ping('10.0.0.1')
